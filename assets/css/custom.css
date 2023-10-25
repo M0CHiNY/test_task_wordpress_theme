@@ -1,0 +1,90 @@
+.form-comment .logged-in-as .required-field-message {
+  display: none;
+}
+
+.form-comment .logged-in-as {
+  display: flex;
+  /* justify-content: flex-end; */
+  gap: 10px;
+  padding: 24px;
+  border: 1px solid var(--Light-grey, #ddd);
+  background-color: #f4fdf8;
+}
+.form-comment .logged-in-as a:nth-child(2) {
+  margin-left: auto;
+}
+.form-comment .comment-notes,
+.form-comment .comment-form-cookies-consent {
+    display: none;
+}
+.reviews .box-reply{
+	position: absolute;
+	left:30px;
+	padding-top:16px;
+	padding-bottom:16px;
+	z-index:50;
+}
+
+.reviews .box-reply a{
+	color: var(--Dark-text, #1B1D1F);
+	font-family: Nunito Sans;
+	font-size: 13px;
+	padding:3px;
+	border:1px solid transparent;
+}
+.reviews .box-reply a:hover{
+	border:1px solid #1B1D1F;
+	padding:3px;
+}
+.reviews .children{
+	padding-left:50px;
+	border: 1px solid var(--Light-grey, #DDD);
+	background: #FFF;
+	position:relative;
+	transform: translateY(-34px);
+	padding-top:36px;
+	padding-right:50px;
+}
+.reviews .children .total_commects{
+	display:none;
+}
+.reviews .children .box-info{
+	width:100%;
+}
+.reviews .children .box-info__wrapper{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	width: 100%;
+	
+}
+.reviews .children .box-result{
+	display:none;
+}
+.reviews .children .box {
+	border:none;
+}
+.children .reviews__item{
+	border-bottom:1px solid var(--Light-grey, #DDD);
+}
+.reviews__item:last-child {
+    border-bottom: none;
+	margin-bottom:24px;
+}
+.reviews .childre .reviews__item {
+ margin-bottom: 0;
+}
+.reviews .children .box-content,
+.reviews .children .box {
+	padding:10px;
+	background:#FFF;
+	border:none;
+}
+.comment-reply-title{
+	padding: 24px;
+	display:block;
+}
+
+.about-company.about-company--mod {
+margin-top: 100px;
+}
